@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(to bottom, #0052D4, #4364F7, #6FB1FC);
+    background: linear-gradient(to bottom, #0052D4, #4364F7, #6FB1FC);
+}
+.startGame {
+    width: 200px;
+    height: 35px;
+    margin: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #252b21;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+    transition: background-color .2s, transform .2s, color .2s;
+}
+.startGame:active {
+    transform: scale(1.3);
+    background-color: yellow;
+    color: black;
+}
+.myCanvas {
+    width: 800px;
+    height: 500px;
+    border: 4px solid black;
+    cursor: pointer;
+    background: -webkit-linear-gradient(to bottom, #0052D4, #4364F7, #6FB1FC);
+    background: linear-gradient(to bottom, #0052D4, #4364F7, #6FB1FC);
+}
